@@ -1,0 +1,39 @@
+customer_id,customer_name,city,country,valid_from,valid_to,is_current,customer_sk,source_files
+C001,Ahmed Hassan,Cairo,Egypt,2025-01-02,2025-02-28,False,1,"sales_2025_01.csv, sales_2025_02.csv"
+C001,Ahmed Hassan,Giza,Egypt,2025-03-01,,True,2,sales_2025_03.csv
+C002,Sara Ali,Giza,Egypt,2025-01-02,,True,3,"sales_2025_01.csv, sales_2025_03.csv"
+C003,Omar Khaled,Alexandria,Egypt,2025-01-03,,True,4,"sales_2025_01.csv, sales_2025_02.csv, sales_2025_03.csv"
+C004,Mona Youssef,Mansoura,Egypt,2025-01-03,2025-03-02,False,5,sales_2025_01.csv
+C004,Mona Youssef,Damietta,Egypt,2025-03-03,,True,6,sales_2025_03.csv
+C005,Nour Ibrahim,Tanta,Egypt,2025-01-04,,True,7,sales_2025_01.csv
+C006,Yara Adel,Cairo,Egypt,2025-01-05,,True,8,"sales_2025_01.csv, sales_2025_02.csv, sales_2025_03.csv"
+C007,Mostafa Samir,Giza,Egypt,2025-01-05,,True,9,sales_2025_01.csv
+C008,Huda Nabil,Alexandria,Egypt,2025-01-06,,True,10,sales_2025_01.csv
+C009,Karim Fathy,Zagazig,Egypt,2025-01-06,,True,11,sales_2025_01.csv
+C010,Salma Essam,Cairo,Egypt,2025-01-07,,True,12,sales_2025_01.csv
+C011,Ali Mahmoud,Ismailia,Egypt,2025-01-08,,True,13,sales_2025_01.csv
+C012,Dina Ashraf,Cairo,Egypt,2025-01-09,,True,14,sales_2025_01.csv
+C013,Wael Tarek,Sohag,Egypt,2025-01-10,,True,15,sales_2025_01.csv
+C014,Reem Hamdy,Aswan,Egypt,2025-01-10,,True,16,sales_2025_01.csv
+C015,Hesham Adel,Cairo,Egypt,2025-01-11,,True,17,sales_2025_01.csv
+C016,Laila Sherif,Giza,Egypt,2025-02-01,,True,18,sales_2025_02.csv
+C017,Amr Hany,Alexandria,Egypt,2025-02-01,,True,19,sales_2025_02.csv
+C018,Nada Khalil,Cairo,Egypt,2025-02-02,,True,20,sales_2025_02.csv
+C019,Tamer Naguib,Port Said,Egypt,2025-02-02,,True,21,sales_2025_02.csv
+C020,Farah Adel,Mansoura,Egypt,2025-02-03,,True,22,sales_2025_02.csv
+C021,Hany Reda,Giza,Egypt,2025-02-04,,True,23,sales_2025_02.csv
+C022,Mayada Mostafa,Tanta,Egypt,2025-02-04,,True,24,sales_2025_02.csv
+C023,Basel Anwar,Cairo,Egypt,2025-02-05,,True,25,sales_2025_02.csv
+C024,Hagar Emad,Zagazig,Egypt,2025-02-05,,True,26,sales_2025_02.csv
+C025,Mahmoud Ashraf,Alexandria,Egypt,2025-02-06,,True,27,sales_2025_02.csv
+C026,Noha Sameh,Cairo,Egypt,2025-02-07,,True,28,sales_2025_02.csv
+C027,Ramy Fares,Ismailia,Egypt,2025-02-07,,True,29,sales_2025_02.csv
+C028,Sandy Nabil,Sohag,Egypt,2025-02-08,,True,30,sales_2025_02.csv
+C029,Khaled Saber,Aswan,Egypt,2025-02-08,,True,31,sales_2025_02.csv
+C030,Passant Adel,Cairo,Egypt,2025-02-09,,True,32,sales_2025_02.csv
+C031,Islam Tarek,Giza,Egypt,2025-02-10,,True,33,sales_2025_02.csv
+C032,Mariam Fathy,Alexandria,Egypt,2025-02-10,,True,34,sales_2025_02.csv
+C033,Hossam Adel,Cairo,Egypt,2025-03-02,,True,35,sales_2025_03.csv
+C034,Nermin Samy,Giza,Egypt,2025-03-03,,True,36,sales_2025_03.csv
+C035,Adel Fawzy,Alexandria,Egypt,2025-03-04,,True,37,sales_2025_03.csv
+C036,Rania Tarek,Mansoura,Egypt,2025-03-05,,True,38,sales_2025_03.csv

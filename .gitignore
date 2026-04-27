@@ -1,0 +1,113 @@
+# ============================================
+# DATA DIRECTORIES - Binary files, large datasets, and persistent storage
+# ============================================
+
+# PostgreSQL database files (BINARY - never share)
+/postgres-source/data/
+/postgres-control/data/
+/postgres-airflow/data/
+
+# Spark streaming checkpoints (BINARY - can be large)
+/checkpoint/
+
+# pgAdmin settings (optional - contains saved connections)
+/pgadmin/
+
+# DuckDB data
+/duckdb_data/
+
+# ============================================
+# LOG FILES - Auto-generated, can be large
+# ============================================
+
+# Airflow logs
+/airflow/logs/
+/airflow/logs/*.log
+/airflow/logs/**/*.log
+/airflow/logs/**/*.py
+!airflow/logs/.gitkeep
+
+# ============================================
+# LARGE DATASETS - Keep repo small
+# ============================================
+
+# TPC-H data files
+/data/*.tbl
+/data/*.csv
+/data/*.parquet
+/data/*.json
+!data/.gitkeep
+
+# ============================================
+# PYTHON CACHE FILES
+# ============================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python distributions
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ============================================
+# IDE AND EDITOR FILES
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Vim
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================
+# DOCKER VOLUMES
+# ============================================
+
+# Docker-managed volumes
+pip-cache/
+
+# ============================================
+# ENVIRONMENT VARIABLES - CRITICAL: NEVER COMMIT
+# ============================================
+
+# Your Snowflake credentials live here - NEVER COMMIT
+.env
+.env.local
+.env.*
+!.env.example
+
+# ============================================
+# SYSTEM FILES
+# ============================================
+
+.DS_Store
+Thumbs.db
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# KEEP EMPTY DIRECTORY STRUCTURE
+# ============================================
+
+# Allow .gitkeep files to preserve empty directory structure
+!.gitkeep
